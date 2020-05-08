@@ -1,7 +1,7 @@
 .nav{
     width: 100%;
     height: 50px;
-    background-color: rgb(17, 17, 236);
+    background-color:  #316DC3;;
     padding: 0px;
 }
 .fa {
@@ -22,9 +22,12 @@
     
    
 }
+.navba{
+    position: sticky;
+}
 .home{
    
-    background-color: blue;
+    background-color:   #316DC3;;
     color: white;
     font-size: 16px;
     padding: 9px 25px;
@@ -41,7 +44,7 @@
     cursor: pointer;
     border-radius: 15px;
     padding: 9px 20px;
-    background-color: blue;
+    background-color: #316DC3;
     color: white !important;
 }
 .services:hover{
@@ -49,7 +52,7 @@
     cursor: pointer;
     border-radius: 15px;
     padding: 9px 20px;
-    background-color: blue;
+    background-color:   #316DC3;
     color: white !important;
 }
 .media:hover{
@@ -57,23 +60,21 @@
     cursor: pointer;
     border-radius: 15px;
     padding: 3px 10px;
-    background-color: blue;
+    background-color: #316DC3;
     color: white !important;
 }
 .hori{
-    background-color: rgb(17, 17, 236) ;
-    height: 30px;
+    background-color:#316DC3; ;
+    height: 25px;
     color: white;
 }
-.intr{
-   color: Blue;
-}
+
 .duction{
     color: green;
     margin-left: -12px;
 }
 .rating{
-    background-color: blue;
+    background-color: #316DC3;
   height: 350px;
 }
 .im{
@@ -99,52 +100,45 @@
     height: 180px;
     width: 250px;
     background-color: white;
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);  
 }
 .two{
     height: 180px;
     width: 250px;
     background-color: white;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
 }
 .three{
     height: 180px;
     width: 250px;
     background-color: white;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
 }
 .pics{
     height: 60px;
     width: 60px;
 }
 .color{
-    color: blue;
+    color: #316DC3;
 }
 .grid{
-    height: 750px;
+    height: 650px;
 }
-/* .four{
-    height: 100px;
-    width:80;
-    
-}
-.five{
-    height: 100px;
-    width: 80px;
-} */
+
 
 .four{
     height: 100px;
     width: 150px;
     background-color: white;
 }
-/* .five{
-    height: 300px;
-    width: 200px;
-} */
+
 .events{
     font-size: 30px;
     margin-left: 400px;
 }
 .missio{
     font-size: 30px;
+    
    
 }
 .btn:focus, .btn:active, button:focus, button:active {
@@ -339,4 +333,22 @@
 	}
  
 }
+@media only screen and (max-width: 991px){
+    .nav {
+        text-align: center !important;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
